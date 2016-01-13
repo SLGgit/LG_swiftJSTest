@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004C7BD41BE1EA1F00B5BEB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C7BD31BE1EA1F00B5BEB6 /* AppDelegate.swift */; };
+		004C7BD61BE1EA1F00B5BEB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C7BD51BE1EA1F00B5BEB6 /* ViewController.swift */; };
+		004C7BD91BE1EA1F00B5BEB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004C7BD71BE1EA1F00B5BEB6 /* Main.storyboard */; };
+		004C7BDC1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004C7BDA1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodeld */; };
+		004C7BDE1BE1EA1F00B5BEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004C7BDD1BE1EA1F00B5BEB6 /* Assets.xcassets */; };
+		004C7BE11BE1EA1F00B5BEB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004C7BDF1BE1EA1F00B5BEB6 /* LaunchScreen.storyboard */; };
+		004C7BEC1BE1EA1F00B5BEB6 /* CarmeMallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C7BEB1BE1EA1F00B5BEB6 /* CarmeMallTests.swift */; };
+		004C7BF71BE1EA1F00B5BEB6 /* CarmeMallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C7BF61BE1EA1F00B5BEB6 /* CarmeMallUITests.swift */; };
+		004C7C051BE1EAE100B5BEB6 /* CMMainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C7C041BE1EAE100B5BEB6 /* CMMainTabViewController.swift */; };
+		004C7C101BE1ECDB00B5BEB6 /* CMFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C7C0F1BE1ECDB00B5BEB6 /* CMFindViewController.swift */; };
+		004EC5511C2CE2BD0041223C /* praise.png in Resources */ = {isa = PBXBuildFile; fileRef = 004EC5501C2CE2BD0041223C /* praise.png */; };
+		004EC5651C2D2D7C0041223C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC55B1C2D2D7C0041223C /* 1.jpg */; };
+		004EC5661C2D2D7C0041223C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC55C1C2D2D7C0041223C /* 2.jpg */; };
+		004EC5671C2D2D7C0041223C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC55D1C2D2D7C0041223C /* 3.jpg */; };
+		004EC5681C2D2D7C0041223C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC55E1C2D2D7C0041223C /* 4.jpg */; };
+		004EC5691C2D2D7C0041223C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC55F1C2D2D7C0041223C /* 5.jpg */; };
+		004EC56A1C2D2D7C0041223C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC5601C2D2D7C0041223C /* 6.jpg */; };
+		004EC56B1C2D2D7C0041223C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC5611C2D2D7C0041223C /* 7.jpg */; };
+		004EC56C1C2D2D7C0041223C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC5621C2D2D7C0041223C /* 8.jpg */; };
+		004EC56D1C2D2D7C0041223C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC5631C2D2D7C0041223C /* 9.jpg */; };
+		004EC56E1C2D2D7C0041223C /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004EC5641C2D2D7C0041223C /* 10.jpg */; };
+		00634EE61C30D2B20046A028 /* shoppingCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 00634EE51C30D2B20046A028 /* shoppingCar.png */; };
+		00634EE81C3114800046A028 /* ShoppingCarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 00634EE71C3114800046A028 /* ShoppingCarImage.png */; };
+		00794EF51C44FF60001766C8 /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 00794EF41C44FF60001766C8 /* demo.js */; };
+		00794EFB1C450544001766C8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00794EFA1C450544001766C8 /* JavaScriptCore.framework */; };
+		00794EFD1C450583001766C8 /* libJSPatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00794EFC1C450583001766C8 /* libJSPatch.a */; };
+		00794EFF1C450865001766C8 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00794EFE1C450865001766C8 /* libz.1.dylib */; };
+		00794F011C450913001766C8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00794F001C450913001766C8 /* JavaScriptCore.framework */; };
+		0090FDF41C2BC6F8009A2507 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0090FDF31C2BC6F8009A2507 /* image0.jpg */; };
+		00E71BB41BE203E2004A5320 /* UserBackImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00E71BB31BE203E2004A5320 /* UserBackImage.jpg */; };
+		7C868A831E77397D90AA9797 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB48F18C454D242C615DFBC5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004C7BE81BE1EA1F00B5BEB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004C7BC81BE1EA1F00B5BEB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004C7BCF1BE1EA1F00B5BEB6;
+			remoteInfo = CarmeMall;
+		};
+		004C7BF31BE1EA1F00B5BEB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004C7BC81BE1EA1F00B5BEB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004C7BCF1BE1EA1F00B5BEB6;
+			remoteInfo = CarmeMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004C7BD01BE1EA1F00B5BEB6 /* CarmeMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarmeMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004C7BD31BE1EA1F00B5BEB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		004C7BD51BE1EA1F00B5BEB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		004C7BD81BE1EA1F00B5BEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004C7BDB1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarmeMall.xcdatamodel; sourceTree = "<group>"; };
+		004C7BDD1BE1EA1F00B5BEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		004C7BE01BE1EA1F00B5BEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		004C7BE21BE1EA1F00B5BEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004C7BE71BE1EA1F00B5BEB6 /* CarmeMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmeMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004C7BEB1BE1EA1F00B5BEB6 /* CarmeMallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmeMallTests.swift; sourceTree = "<group>"; };
+		004C7BED1BE1EA1F00B5BEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004C7BF21BE1EA1F00B5BEB6 /* CarmeMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarmeMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004C7BF61BE1EA1F00B5BEB6 /* CarmeMallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarmeMallUITests.swift; sourceTree = "<group>"; };
+		004C7BF81BE1EA1F00B5BEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004C7C041BE1EAE100B5BEB6 /* CMMainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMMainTabViewController.swift; sourceTree = "<group>"; };
+		004C7C0F1BE1ECDB00B5BEB6 /* CMFindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CMFindViewController.swift; path = "FindViewController /CMFindViewController.swift"; sourceTree = "<group>"; };
+		004EC5501C2CE2BD0041223C /* praise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praise.png; sourceTree = "<group>"; };
+		004EC55B1C2D2D7C0041223C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		004EC55C1C2D2D7C0041223C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		004EC55D1C2D2D7C0041223C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		004EC55E1C2D2D7C0041223C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		004EC55F1C2D2D7C0041223C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		004EC5601C2D2D7C0041223C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		004EC5611C2D2D7C0041223C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		004EC5621C2D2D7C0041223C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		004EC5631C2D2D7C0041223C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		004EC5641C2D2D7C0041223C /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		00634EE51C30D2B20046A028 /* shoppingCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingCar.png; sourceTree = "<group>"; };
+		00634EE71C3114800046A028 /* ShoppingCarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShoppingCarImage.png; sourceTree = "<group>"; };
+		00794EF41C44FF60001766C8 /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		00794EF61C450222001766C8 /* CarmeMall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarmeMall-Bridging-Header.h"; sourceTree = "<group>"; };
+		00794EFA1C450544001766C8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		00794EFC1C450583001766C8 /* libJSPatch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSPatch.a; path = "Pods/../build/Debug-iphoneos/libJSPatch.a"; sourceTree = "<group>"; };
+		00794EFE1C450865001766C8 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../libz.1.dylib; sourceTree = "<group>"; };
+		00794F001C450913001766C8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0090FDF31C2BC6F8009A2507 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		00E71BB31BE203E2004A5320 /* UserBackImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UserBackImage.jpg; sourceTree = "<group>"; };
+		605D3AC77C31BC683C1D0BFC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A7182392FDCCD8825FDE4B7E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB48F18C454D242C615DFBC5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004C7BCD1BE1EA1F00B5BEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00794F011C450913001766C8 /* JavaScriptCore.framework in Frameworks */,
+				00794EFF1C450865001766C8 /* libz.1.dylib in Frameworks */,
+				00794EFD1C450583001766C8 /* libJSPatch.a in Frameworks */,
+				00794EFB1C450544001766C8 /* JavaScriptCore.framework in Frameworks */,
+				7C868A831E77397D90AA9797 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004C7BE41BE1EA1F00B5BEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004C7BEF1BE1EA1F00B5BEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004C7BC71BE1EA1F00B5BEB6 = {
+			isa = PBXGroup;
+			children = (
+				004C7BD21BE1EA1F00B5BEB6 /* CarmeMall */,
+				004C7BEA1BE1EA1F00B5BEB6 /* CarmeMallTests */,
+				004C7BF51BE1EA1F00B5BEB6 /* CarmeMallUITests */,
+				004C7BD11BE1EA1F00B5BEB6 /* Products */,
+				4FADD123BC699765A30F7D07 /* Pods */,
+				D8C458B8452278067A0AE486 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		004C7BD11BE1EA1F00B5BEB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004C7BD01BE1EA1F00B5BEB6 /* CarmeMall.app */,
+				004C7BE71BE1EA1F00B5BEB6 /* CarmeMallTests.xctest */,
+				004C7BF21BE1EA1F00B5BEB6 /* CarmeMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004C7BD21BE1EA1F00B5BEB6 /* CarmeMall */ = {
+			isa = PBXGroup;
+			children = (
+				004C7C0F1BE1ECDB00B5BEB6 /* CMFindViewController.swift */,
+				004C7BD31BE1EA1F00B5BEB6 /* AppDelegate.swift */,
+				004C7BD51BE1EA1F00B5BEB6 /* ViewController.swift */,
+				004C7C041BE1EAE100B5BEB6 /* CMMainTabViewController.swift */,
+				004C7BD71BE1EA1F00B5BEB6 /* Main.storyboard */,
+				004C7BDD1BE1EA1F00B5BEB6 /* Assets.xcassets */,
+				004C7BDF1BE1EA1F00B5BEB6 /* LaunchScreen.storyboard */,
+				004C7BE21BE1EA1F00B5BEB6 /* Info.plist */,
+				004C7BDA1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodeld */,
+				00794EF41C44FF60001766C8 /* demo.js */,
+				00E71BB01BE203B4004A5320 /* TestImages */,
+				00794EF61C450222001766C8 /* CarmeMall-Bridging-Header.h */,
+			);
+			path = CarmeMall;
+			sourceTree = "<group>";
+		};
+		004C7BEA1BE1EA1F00B5BEB6 /* CarmeMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				004C7BEB1BE1EA1F00B5BEB6 /* CarmeMallTests.swift */,
+				004C7BED1BE1EA1F00B5BEB6 /* Info.plist */,
+			);
+			path = CarmeMallTests;
+			sourceTree = "<group>";
+		};
+		004C7BF51BE1EA1F00B5BEB6 /* CarmeMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				004C7BF61BE1EA1F00B5BEB6 /* CarmeMallUITests.swift */,
+				004C7BF81BE1EA1F00B5BEB6 /* Info.plist */,
+			);
+			path = CarmeMallUITests;
+			sourceTree = "<group>";
+		};
+		00E71BB01BE203B4004A5320 /* TestImages */ = {
+			isa = PBXGroup;
+			children = (
+				00634EE71C3114800046A028 /* ShoppingCarImage.png */,
+				00634EE51C30D2B20046A028 /* shoppingCar.png */,
+				004EC5501C2CE2BD0041223C /* praise.png */,
+				0090FDF31C2BC6F8009A2507 /* image0.jpg */,
+				00E71BB31BE203E2004A5320 /* UserBackImage.jpg */,
+				004EC55B1C2D2D7C0041223C /* 1.jpg */,
+				004EC55C1C2D2D7C0041223C /* 2.jpg */,
+				004EC55D1C2D2D7C0041223C /* 3.jpg */,
+				004EC55E1C2D2D7C0041223C /* 4.jpg */,
+				004EC55F1C2D2D7C0041223C /* 5.jpg */,
+				004EC5601C2D2D7C0041223C /* 6.jpg */,
+				004EC5611C2D2D7C0041223C /* 7.jpg */,
+				004EC5621C2D2D7C0041223C /* 8.jpg */,
+				004EC5631C2D2D7C0041223C /* 9.jpg */,
+				004EC5641C2D2D7C0041223C /* 10.jpg */,
+			);
+			path = TestImages;
+			sourceTree = "<group>";
+		};
+		4FADD123BC699765A30F7D07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7182392FDCCD8825FDE4B7E /* Pods.debug.xcconfig */,
+				605D3AC77C31BC683C1D0BFC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8C458B8452278067A0AE486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00794F001C450913001766C8 /* JavaScriptCore.framework */,
+				00794EFE1C450865001766C8 /* libz.1.dylib */,
+				00794EFC1C450583001766C8 /* libJSPatch.a */,
+				00794EFA1C450544001766C8 /* JavaScriptCore.framework */,
+				FB48F18C454D242C615DFBC5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004C7BCF1BE1EA1F00B5BEB6 /* CarmeMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004C7BFB1BE1EA1F00B5BEB6 /* Build configuration list for PBXNativeTarget "CarmeMall" */;
+			buildPhases = (
+				7CEA426240A33D727147B2F1 /* Check Pods Manifest.lock */,
+				004C7BCC1BE1EA1F00B5BEB6 /* Sources */,
+				004C7BCD1BE1EA1F00B5BEB6 /* Frameworks */,
+				004C7BCE1BE1EA1F00B5BEB6 /* Resources */,
+				42E74A6C8C9813E90DAC1F0E /* Embed Pods Frameworks */,
+				5E4A4D6DB361BFDC1A68A0EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarmeMall;
+			productName = CarmeMall;
+			productReference = 004C7BD01BE1EA1F00B5BEB6 /* CarmeMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004C7BE61BE1EA1F00B5BEB6 /* CarmeMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004C7BFE1BE1EA1F00B5BEB6 /* Build configuration list for PBXNativeTarget "CarmeMallTests" */;
+			buildPhases = (
+				004C7BE31BE1EA1F00B5BEB6 /* Sources */,
+				004C7BE41BE1EA1F00B5BEB6 /* Frameworks */,
+				004C7BE51BE1EA1F00B5BEB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004C7BE91BE1EA1F00B5BEB6 /* PBXTargetDependency */,
+			);
+			name = CarmeMallTests;
+			productName = CarmeMallTests;
+			productReference = 004C7BE71BE1EA1F00B5BEB6 /* CarmeMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		004C7BF11BE1EA1F00B5BEB6 /* CarmeMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004C7C011BE1EA1F00B5BEB6 /* Build configuration list for PBXNativeTarget "CarmeMallUITests" */;
+			buildPhases = (
+				004C7BEE1BE1EA1F00B5BEB6 /* Sources */,
+				004C7BEF1BE1EA1F00B5BEB6 /* Frameworks */,
+				004C7BF01BE1EA1F00B5BEB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004C7BF41BE1EA1F00B5BEB6 /* PBXTargetDependency */,
+			);
+			name = CarmeMallUITests;
+			productName = CarmeMallUITests;
+			productReference = 004C7BF21BE1EA1F00B5BEB6 /* CarmeMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004C7BC81BE1EA1F00B5BEB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = carme;
+				TargetAttributes = {
+					004C7BCF1BE1EA1F00B5BEB6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8JFS2E3XF2;
+					};
+					004C7BE61BE1EA1F00B5BEB6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 004C7BCF1BE1EA1F00B5BEB6;
+					};
+					004C7BF11BE1EA1F00B5BEB6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 004C7BCF1BE1EA1F00B5BEB6;
+					};
+				};
+			};
+			buildConfigurationList = 004C7BCB1BE1EA1F00B5BEB6 /* Build configuration list for PBXProject "CarmeMall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004C7BC71BE1EA1F00B5BEB6;
+			productRefGroup = 004C7BD11BE1EA1F00B5BEB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004C7BCF1BE1EA1F00B5BEB6 /* CarmeMall */,
+				004C7BE61BE1EA1F00B5BEB6 /* CarmeMallTests */,
+				004C7BF11BE1EA1F00B5BEB6 /* CarmeMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004C7BCE1BE1EA1F00B5BEB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004EC56A1C2D2D7C0041223C /* 6.jpg in Resources */,
+				004EC5681C2D2D7C0041223C /* 4.jpg in Resources */,
+				004EC5671C2D2D7C0041223C /* 3.jpg in Resources */,
+				004EC56E1C2D2D7C0041223C /* 10.jpg in Resources */,
+				004EC5511C2CE2BD0041223C /* praise.png in Resources */,
+				004EC5661C2D2D7C0041223C /* 2.jpg in Resources */,
+				004C7BE11BE1EA1F00B5BEB6 /* LaunchScreen.storyboard in Resources */,
+				004EC5691C2D2D7C0041223C /* 5.jpg in Resources */,
+				0090FDF41C2BC6F8009A2507 /* image0.jpg in Resources */,
+				00E71BB41BE203E2004A5320 /* UserBackImage.jpg in Resources */,
+				004EC5651C2D2D7C0041223C /* 1.jpg in Resources */,
+				004EC56D1C2D2D7C0041223C /* 9.jpg in Resources */,
+				004EC56C1C2D2D7C0041223C /* 8.jpg in Resources */,
+				00794EF51C44FF60001766C8 /* demo.js in Resources */,
+				004EC56B1C2D2D7C0041223C /* 7.jpg in Resources */,
+				00634EE81C3114800046A028 /* ShoppingCarImage.png in Resources */,
+				004C7BDE1BE1EA1F00B5BEB6 /* Assets.xcassets in Resources */,
+				00634EE61C30D2B20046A028 /* shoppingCar.png in Resources */,
+				004C7BD91BE1EA1F00B5BEB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004C7BE51BE1EA1F00B5BEB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004C7BF01BE1EA1F00B5BEB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E74A6C8C9813E90DAC1F0E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4A4D6DB361BFDC1A68A0EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CEA426240A33D727147B2F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004C7BCC1BE1EA1F00B5BEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004C7C101BE1ECDB00B5BEB6 /* CMFindViewController.swift in Sources */,
+				004C7BD61BE1EA1F00B5BEB6 /* ViewController.swift in Sources */,
+				004C7BDC1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodeld in Sources */,
+				004C7BD41BE1EA1F00B5BEB6 /* AppDelegate.swift in Sources */,
+				004C7C051BE1EAE100B5BEB6 /* CMMainTabViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004C7BE31BE1EA1F00B5BEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004C7BEC1BE1EA1F00B5BEB6 /* CarmeMallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004C7BEE1BE1EA1F00B5BEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004C7BF71BE1EA1F00B5BEB6 /* CarmeMallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004C7BE91BE1EA1F00B5BEB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004C7BCF1BE1EA1F00B5BEB6 /* CarmeMall */;
+			targetProxy = 004C7BE81BE1EA1F00B5BEB6 /* PBXContainerItemProxy */;
+		};
+		004C7BF41BE1EA1F00B5BEB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004C7BCF1BE1EA1F00B5BEB6 /* CarmeMall */;
+			targetProxy = 004C7BF31BE1EA1F00B5BEB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		004C7BD71BE1EA1F00B5BEB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004C7BD81BE1EA1F00B5BEB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		004C7BDF1BE1EA1F00B5BEB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004C7BE01BE1EA1F00B5BEB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004C7BF91BE1EA1F00B5BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004C7BFA1BE1EA1F00B5BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004C7BFC1BE1EA1F00B5BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7182392FDCCD8825FDE4B7E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = CarmeMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carme.CarmeMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarmeMall/CarmeMall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		004C7BFD1BE1EA1F00B5BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605D3AC77C31BC683C1D0BFC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = CarmeMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carme.CarmeMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarmeMall/CarmeMall-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		004C7BFF1BE1EA1F00B5BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarmeMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carme.CarmeMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarmeMall.app/CarmeMall";
+			};
+			name = Debug;
+		};
+		004C7C001BE1EA1F00B5BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarmeMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carme.CarmeMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarmeMall.app/CarmeMall";
+			};
+			name = Release;
+		};
+		004C7C021BE1EA1F00B5BEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarmeMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carme.CarmeMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarmeMall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		004C7C031BE1EA1F00B5BEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarmeMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carme.CarmeMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarmeMall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004C7BCB1BE1EA1F00B5BEB6 /* Build configuration list for PBXProject "CarmeMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004C7BF91BE1EA1F00B5BEB6 /* Debug */,
+				004C7BFA1BE1EA1F00B5BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004C7BFB1BE1EA1F00B5BEB6 /* Build configuration list for PBXNativeTarget "CarmeMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004C7BFC1BE1EA1F00B5BEB6 /* Debug */,
+				004C7BFD1BE1EA1F00B5BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004C7BFE1BE1EA1F00B5BEB6 /* Build configuration list for PBXNativeTarget "CarmeMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004C7BFF1BE1EA1F00B5BEB6 /* Debug */,
+				004C7C001BE1EA1F00B5BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004C7C011BE1EA1F00B5BEB6 /* Build configuration list for PBXNativeTarget "CarmeMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004C7C021BE1EA1F00B5BEB6 /* Debug */,
+				004C7C031BE1EA1F00B5BEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		004C7BDA1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				004C7BDB1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodel */,
+			);
+			currentVersion = 004C7BDB1BE1EA1F00B5BEB6 /* CarmeMall.xcdatamodel */;
+			path = CarmeMall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 004C7BC81BE1EA1F00B5BEB6 /* Project object */;
+}

@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e6450b7e-096b-4711-9864-9ec646078f43++1136" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e6450b7e-096b-4711-9864-9ec646078f43++1136" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9B658F1C-F5E5-4981-B8AC-C999DC81532F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e6450b7e-096b-4711-9864-9ec646078f43++1136" : "CarmeMall\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CarmeMall",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CarmeMall.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/121.43.111.153\/02.Developments",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e6450b7e-096b-4711-9864-9ec646078f43++1136"
+    }
+  ]
+}
